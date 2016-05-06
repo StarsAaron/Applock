@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    android:divider="#ff959595"
+    android:showDividers="middle"
+    android:background="#fff3f3f3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="修改密码"
+        android:id="@+id/tv_chg_pwd"
+        android:layout_gravity="center_vertical"
+        android:gravity="left"
+        android:textColor="#ff292929"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="修改密保问题"
+        android:id="@+id/tv_chg_question"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:textColor="#ff292929"
+        android:textIsSelectable="false"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="关于"
+        android:id="@+id/tv_about"
+        android:layout_gravity="left"
+        android:textColor="#ff292929"
+        android:textSize="18dp" />
+</LinearLayout>
